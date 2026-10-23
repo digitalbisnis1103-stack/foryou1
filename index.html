@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>For You</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- =========================
+BACKGROUND
+========================= -->
+
+<div class="bg-blur bg1"></div>
+<div class="bg-blur bg2"></div>
+
+<div id="floating-hearts"></div>
+
+<div class="sparkles"></div>
+
+<!-- =========================
+MUSIC
+========================= -->
+
+<audio id="bgm" loop>
+
+<source src="musik.mp3" type="audio/mpeg">
+
+</audio>
+
+<!-- =========================
+PAGE 1
+OPENING
+========================= -->
+
+<section class="page active" id="page1">
+
+<div class="welcome">
+
+<img src="icon1.webp" class="lotso lotso-big">
+
+<h1>
+
+Hallo Boy
+
+</h1>
+
+<p>
+
+Aku tau akhir akhir ini aku memang sering overthinking ini itu apalagi tentang sakit aku, aku cuma mau km buka ini yah sayang.
+</p>
+
+<button id="startBtn">
+
+Buka Surat 💌
+
+</button>
+
+</div>
+
+</section>
+
+<!-- =========================
+PAGE 2
+ENVELOPE
+========================= -->
+
+<section class="page" id="page2">
+
+    <div class="heart-meter">
+
+        <div class="meter-text">
+            <span>Hati Kamu</span>
+            <span id="meterValue">0%</span>
+        </div>
+
+        <div class="meter">
+            <div class="meter-fill" id="meterFill"></div>
+        </div>
+
+    </div>
+
+    <div class="envelope-area">
+
+        <img
+            src="envelope.png"
+            alt="Envelope"
+            id="envelope"
+            class="envelope-img"
+        >
+
+    </div>
+
+</section>
+
+<!-- =========================
+PAGE 3
+LOTSO
+========================= -->
+
+<section class="page" id="page3">
+
+<div class="heart-meter">
+
+<div class="meter-text">
+
+Hati Kamu
+
+<span>
+
+25%
+
+</span>
+
+</div>
+
+<div class="meter">
+
+<div class="meter-fill meter25"></div>
+
+</div>
+
+</div>
+
+<img src="icon2.webp" class="lotso">
+
+<p>
+Aku sadar mungkin aku terlalu sering bikin kamu kecewa dan bikin kamu cemburu mungkin, aku cuma mau kamu sayang, tanpa adanya kebohongan. tolong yakinin aku, kalau kamu serius benar-benar serius sama aku
+</p>
+
+<button class="next">
+
+Next 🤍
+
+</button>
+
+</section>
+
+<!-- =========================
+PAGE 4
+LOTSO
+========================= -->
+
+<section class="page" id="page4">
+
+<div class="heart-meter">
+
+<div class="meter-text">
+
+Hati Kamu
+
+<span>
+
+50%
+
+</span>
+
+</div>
+
+<div class="meter">
+
+<div class="meter-fill meter50"></div>
+
+</div>
+
+</div>
+
+<img src="icon3.webp" class="lotso">
+
+
+<p>
+Aku tahu kata maaf aja atau lewat web aja ga bikin kecewa mu mereda, aku akan belajar pelan pelan untuk menghilangkan overthinking aku tentang itu, tp yg perlu kamu tahu, aku benar-benar mencintai, selalu.
+</p>
+
+<button class="next">
+
+Next 🤍
+
+</button>
+
+</section>
+
+<!-- =========================
+PAGE 5
+LETTER
+========================= -->
+
+<section class="page" id="page5">
+
+<div class="heart-meter">
+
+<div class="meter-text">
+
+Hati Kamu
+
+<span>
+
+75%
+
+</span>
+
+</div>
+
+<div class="meter">
+
+<div class="meter-fill meter75"></div>
+
+</div>
+
+</div>
+
+<div class="letter">
+
+<div class="letter-scroll">
+
+<p>
+sayang, aku mau kamu tahu kalau aku sama sekali ga bermaksud buat menghindar dari kamu, menjauh dari kamu, atau bahkan menghilang dari kehidupan kamu. tolong jangan pernah berpikir kalau aku udah ga mau kamu ada di sampingku, karena bukan itu maksudku. aku ga pernah berniat buat menjauh dari seseorang yang justru kehadirannya begitu berarti buat aku, bahkan sangat berarti. aku cuma ga mau kamu ikut terjerat dalam keadaan yang sedang aku hadapi. aku ga mau tanpa sadar kamu ikut memikul sesuatu yang seharusnya ga perlu kamu tanggung, sampai akhirnya semuanya terasa berat buat kamu. aku takut suatu saat nanti kehadiranku malah jadi beban di hidup kamu, membuat kamu terlalu banyak berpikir, mengorbankan banyak hal, atau merasa harus selalu ada buat aku bahkan ketika kamu sendiri juga punya banyak hal yang harus kamu hadapi.
+</p>
+
+<p>
+aku tahu kamu punya kehidupan sendiri, punya mimpi yang ingin kamu capai, punya masa depan yang masih panjang, dan ada banyak hal yang masih ingin kamu perjuangkan. aku ga mau semua itu jadi terhambat hanya karena keadaan aku. aku ga mau kamu merasa harus bertahan dalam keadaan yang sulit hanya karena kamu sayang sama aku. kamu juga berhak bahagia, berhak menjalani hidup dengan tenang, dan berhak menikmati hal-hal baik yang masih menunggu kamu di depan sana.
+</p>
+
+<p>
+tapi tolong, jangan salah mengartikan semua ini, ya, sayang. aku bukan sedang menyuruh kamu pergi, bukan sedang meminta kamu berhenti peduli, dan bukan berarti aku ga membutuhkan kehadiran kamu. kalau boleh jujur, aku juga ingin kamu tetap di sini, menemani aku, mendengarkan cerita aku, dan menjadi tempat aku pulang ketika semuanya terasa berat. aku juga ingin punya lebih banyak waktu sama kamu, tertawa bareng kamu, membicarakan hal-hal kecil yang ga penting, sampai merencanakan sesuatu yang mungkin sederhana buat orang lain, tapi berarti banget buat kita.
+</p>
+
+<p>
+aku cuma sedang berusaha memikirkan kamu juga, bukan cuma perasaan aku sendiri. karena aku sayang kamu, aku ga ingin kamu kehilangan ketenangan hanya karena keadaan aku. aku ga ingin kamu merasa terikat oleh sesuatu yang membuat kamu kesulitan untuk melangkah. kalau selama ini aku terlihat seperti sedang mendorong kamu menjauh, maafkan aku, ya. mungkin aku terlalu takut sampai caraku menjaga kamu justru terlihat seperti aku ga menginginkan kamu lagi.
+</p>
+
+<p>
+padahal kenyataannya bukan begitu, sayang. aku ga pernah menganggap kamu sebagai orang yang harus pergi ketika keadaan aku sedang ga baik-baik saja. aku cuma takut kalau suatu saat nanti kamu terlalu banyak terluka karena memilih untuk tetap tinggal. aku ingin kamu tetap bisa menjadi diri kamu sendiri, mengejar apa yang kamu inginkan, dan menjalani hari-hari kamu tanpa merasa seluruh tanggung jawab atas keadaan aku ada di pundak kamu.
+</p>
+
+<p>
+jadi, tolong jangan berpikir kalau aku sedang berusaha melepaskan kamu karena aku ga sayang. justru aku sedang belajar menerima kenyataan bahwa menyayangi seseorang bukan cuma tentang ingin selalu bersamanya, tetapi juga tentang memikirkan bagaimana kehadiran kita memengaruhi hidupnya. aku sayang kamu, lebih dari yang mungkin bisa aku tunjukkan lewat kata-kata. aku cuma ga ingin rasa sayang ini membuat kamu merasa terbebani. aku ingin kehadiran aku menjadi sesuatu yang baik dalam hidup kamu, bukan sesuatu yang membuat kamu kehilangan kebahagiaan kamu sendiri...
+</p>
+
+</div>
+
+<button class="next">
+
+Aku Janji Berubah 🤍
+
+</button>
+
+</div>
+
+</section>
+
+<!-- =========================
+PAGE 6
+ENDING
+========================= -->
+
+<section class="page" id="page6">
+
+<div class="heart-meter">
+
+<div class="meter-text">
+
+Hati Kamu
+
+<span>
+
+100%
+
+</span>
+
+</div>
+
+<div class="meter">
+
+<div class="meter-fill meter100"></div>
+
+</div>
+
+</div>
+
+<img src="icon4.webp" class="lotso happy">
+
+<p>
+
+Terima kasih sudah membaca semuanya. Semoga setelah ini kita bisa sama-sama memperbaiki semuanya.❤️
+
+</p>
+
+<div class="btn-group">
+
+<button id="hugBtn">
+
+Peluk Virtual🫂
+
+</button>
+
+<button id="restartBtn">
+
+Replay💗
+
+</button>
+
+</div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
